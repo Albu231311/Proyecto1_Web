@@ -1,19 +1,23 @@
 # Proyecto
 
-## Instalación y Ejecución
-
-### Requisitos previos
-- Node.js
-- npm
-
 ### Pasos para ejecutar el proyecto
 
-1. **Instalar dependencias**
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/Albu231311/Proyecto1_Web.git
+   ```
+
+2. **Navegar al directorio del proyecto**
+   ```bash
+   cd Proyecto1_Web
+   ```
+
+3. **Instalar dependencias**
    ```bash
    npm install
    ```
 
-2. **Ejecutar el proyecto en modo desarrollo**
+4. **Ejecutar el proyecto en modo desarrollo**
    ```bash
    npm run dev
    ```
