@@ -1,0 +1,20 @@
+
+body, html, #root {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: center; 
+  align-items: center;     
+  background-color: #161718;
+  font-family: Arial, sans-serif;
+}
+
+
+.calculadora {
+  max-width: 320px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background: white;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
