@@ -1,12 +1,44 @@
-# React + Vite
+# Proyecto
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Pasos para ejecutar el proyecto
 
-Currently, two official plugins are available:
+1. **Clonar el repositorio**
+   ```bash
+   git clone https://github.com/Albu231311/Proyecto1_Web.git
+   ```
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+2. **Navegar al directorio del proyecto**
+   ```bash
+   cd Proyecto1_Web
+   ```
 
-## Expanding the ESLint configuration
+3. **Instalar dependencias**
+   ```bash
+   npm install
+   ```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+4. **Ejecutar el proyecto en modo desarrollo**
+   ```bash
+   npm run dev
+   ```
+
+### Comandos adicionales
+
+- **Ejecutar tests**
+  ```bash
+  npm test
+  ```
+
+- **Ejecutar Storybook**
+  ```bash
+  npm run storybook
+  ```
+
+## Scripts disponibles
+
+| Comando | Descripción |
+|---------|-------------|
+| `npm install` | Instala todas las dependencias del proyecto |
+| `npm run dev` | Inicia el servidor de desarrollo |
+| `npm test` | Ejecuta la suite de tests |
+| `npm run storybook` | Inicia Storybook para visualizar componentes |
